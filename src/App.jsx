@@ -77,7 +77,7 @@ const App = () => {
           Swal.fire({
             title: 'Your are successfully minted',
             html:
-              'Hey there! we are minted your NFT and sent it to your wallet. You can trade your nft on  <b>bold text</b>, ' +
+              'Hey there! we are minted your NFT and sent it to your wallet. You can trade your nft on , ' +
               `<a href=' https://testnets.opensea.io/assets/${CONTRACT_ADDRESS}/${tokenId.toNumber()}'>OpenSea</a> ` +
               '',
             width: 600,
